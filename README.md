@@ -4,9 +4,9 @@ git clone  https://github.com/nuuzuul/proyek_analisis_data.git
 
 2. Pastikan  memiliki library Python yang  yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
 pip install streamlit
-pip install -r dashboard/requirements.txt
+pip install -r requirements.txt
 
 <h1>cara pakai</h1>
 Masuk ke direktori proyek (Local):
-cd submission/dashboard/
+cd dashboard
 streamlit run app.py
