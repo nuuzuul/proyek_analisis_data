@@ -3,8 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Membaca data dari file CSV
-day_data = pd.read_csv("day.csv")
-hour_data = pd.read_csv("hour.csv")
+#day_data = pd.read_csv("day.csv")
+#hour_data = pd.read_csv("hour.csv")
+day_data = pd.read_csv("dashboard/day.csv")
+hour_data = pd.read_csv("dashboard/hour.csv")
 
 # Menampilkan informasi tentang data
 st.title("Dashboard Penyewaan Sepeda")
